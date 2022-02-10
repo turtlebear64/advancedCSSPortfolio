@@ -218,7 +218,7 @@ section .title::before{
     cursor: pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card1{
+.services .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
@@ -299,7 +299,7 @@ section .title::before{
     background: lightgrey;
     position: relative;
 }
-.skills .skills-content .center .line .card1 {
+.skills .skills-content .center .line .card {
     height: 5px;
     width: 100%;
     background: lightgrey;
@@ -335,6 +335,33 @@ section .title::before{
     justify-content: center;
     transition: all 0.3s ease;
 }
+.carousel .card .box2 .box3{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right;
+    transition: all 0.3s ease;
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    position: absolute;
+    width: calc(33% - 20px);
+    top: 102em;
+    right: 20em;
+    justify-content: right;
+    float: right;
+    background-color: #222;
+    border-radius: 6px;
+    padding: 50px 25px;
+  }
+  .card1:hover:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background: turquoise;
+  }
+  .container {
+    padding: 2px 16px;
+  }
 .carousel .card:hover .box{
     transform: scale(1.05);
 }
