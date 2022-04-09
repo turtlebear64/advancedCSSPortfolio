@@ -20,9 +20,26 @@ html{
 section{
     padding: 100px 0;
 }
+.card-title {
+    font-size: 20px
+}
+.btn_btn-primary_stretched-link {
+    color: #111
+}
 .about {
     color: white;
 }
+.card-title {
+    font-size: 40px
+}
+.card:hover { background: url("./images/GitHub-Mark.png"); }
+.card {
+    background-image: url() no-repeat center center fixed;
+    max-height: 500px
+}
+.card img{
+    max-width:100%;
+  }
 
 .skills {
     color: white;
@@ -110,7 +127,6 @@ section .title::before{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
-/* menu btn styling */
 .menu-btn{
     color: #fff;
     font-size: 23px;
